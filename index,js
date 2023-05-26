@@ -1,0 +1,65 @@
+const fs = require('fs');
+const inquirer = require('inquirer');
+const path = require('path');
+//this how we are going to make the readme
+const generateMD = require('./utils/generator');
+
+//putting questions in objects inside an array
+inquirer 
+.prompt([
+{
+    type: "input",
+    name: "title",
+    message: "What is the name of your project?",
+},
+{
+    type: "input",
+    name: "description",
+    message: "Describe the functionality of your project.",
+},
+{
+    type: "checkbox",
+    name: "license",
+    message: "Choose a license.",
+    choices: ["Mit", "Apache", "Mozilla", "Boost"],
+},
+{
+    type: "input",
+    name: "require",
+    message: "List your project dependencies.",
+},
+{
+    type: "input",
+    name: "usage",
+    message: "State the languages and other tech that will be required for your project.",
+},
+{
+    type: "input",
+    name: "author",
+    message: "What is your GitHub username?",
+},
+{
+    type: "input",
+    name: "name",
+    message: "What is your full name?",
+},
+{
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+},
+{
+    type: "input",
+    name: "contributions",
+    message: "What are you contribution guidelines for this project?",
+    default: "N/A",
+},
+{
+    type: "input",
+    name: "test",
+    message: "What are the test instructions for this project?",
+},
+])
+.then(data) => {
+    
+}
