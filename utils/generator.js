@@ -11,8 +11,7 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {
     if (license !== "none") {
         return `## License
-        
-        This application is covered under the ${license} license.`;
+This application is covered under the ${license} license.`;
     }
     return "";
 }
@@ -38,7 +37,8 @@ ${data.usage}
 ${data.contributors}
 ## Testing
 ${data.test}
-`;
+
+${renderLicenseSection(data.license)}`;
 }
 
 module.exports = generator;
