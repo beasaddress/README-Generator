@@ -5,6 +5,7 @@ function renderLicenseBadge(license) {}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
+   
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -23,18 +24,38 @@ by ${data.name}
 
 ## Table of Contents
 
+* Description
+
+* Requirements
+
+* Usage
+
+* Contact-Me
+
+* Contributors
+
+* Testing
+
+* License
+
+
 ## Description
 ${data.description}
+
 ## Requirements
 ${data.require}
+
 ## Usage
 ${data.usage}
+
 ## Contact-Me 
 * Name - ${data.name}
 * Email - ${data.email}
 * GitHub - https://github.com/${data.author}/
+
 ## Contributors
 ${data.contributors}
+
 ## Testing
 ${data.test}
 
