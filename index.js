@@ -21,6 +21,7 @@ const questions = [
     name: "license",
     message: "Choose a license.",
     choices: ["Mit", "Apache", "Mozilla", "Boost"],
+    default: "none",
 },
 {
     type: "input",
