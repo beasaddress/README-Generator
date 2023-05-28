@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A command line application that allows users to generate a quality README file straight from the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beasaddress/README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beasaddress/README-Generator/issues"
+  },
+  "homepage": "https://github.com/beasaddress/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

@@ -61,5 +61,8 @@ inquirer
 },
 ])
 .then(data) => {
-    testing something
-}
+    const filename = `README.md`;
+    const readmeContent = `#${data.name}`;
+    fs.writeFile(filename, readmeContent(data, null), (err) =>
+    err ? console.log(err) : console.log("success!")
+    )};
