@@ -2,11 +2,10 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const path = require('path');
 //this how we are going to make the readme
-const generateMD = require('./utils/generator');
+const generator = require('./utils/generator');
 
 //putting questions in objects inside an array
-inquirer 
-.prompt([
+const questions = [
 {
     type: "input",
     name: "title",
@@ -59,10 +58,14 @@ inquirer
     name: "test",
     message: "What are the test instructions for this project?",
 },
-])
-.then(data) => {
-    const filename = `README.md`;
-    const readmeContent = `#${data.name}`;
-    fs.writeFile(filename, readmeContent, (err) =>
-    err ? console.log(err) : console.log("success!")
-    )};
+];
+function writeToFile(fileName, data) {
+    
+}
+
+function init() {
+    //telling the application to prompt the questions, then take the responses and use the writeToFile function
+    inquirer.prompt()
+}
+
+init();
