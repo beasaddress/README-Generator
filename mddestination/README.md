@@ -1,5 +1,5 @@
-# Readme generator
-by Beatriz Sandoval
+# Readme gen
+by beatriz sa
 
 ##Table of Contents
 
@@ -8,6 +8,12 @@ creates a readme
 ## Requirements
 inquirer
 ## Usage
-HTML
+html
 ## Contact-Me 
-
+* Name - beatriz sa
+* Email - beasaddress@gmail.com
+* GitHub - https://github.com/beasaddress/
+## Contributors
+undefined
+## Testing
+npm test

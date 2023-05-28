@@ -24,7 +24,13 @@ ${data.require}
 ## Usage
 ${data.usage}
 ## Contact-Me 
-
+* Name - ${data.name}
+* Email - ${data.email}
+* GitHub - https://github.com/${data.author}/
+## Contributors
+${data.contributors}
+## Testing
+${data.test}
 `;
 }
 
