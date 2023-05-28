@@ -61,7 +61,7 @@ const questions = [
 ];
 function writeToFile(fileName, data) {
     //using path.join() to combine the cwd with what's going to end up being the name of the file so that the data is written in the correct location
-    return fs.writeFile(path.join(process.cwd(),fileName), data);
+    return fs.writeFileSync(path.join(process.cwd(),fileName), data);
 }
 
 function init() {
