@@ -63,6 +63,6 @@ inquirer
 .then(data) => {
     const filename = `README.md`;
     const readmeContent = `#${data.name}`;
-    fs.writeFile(filename, readmeContent(data, null), (err) =>
+    fs.writeFile(filename, readmeContent, (err) =>
     err ? console.log(err) : console.log("success!")
     )};
