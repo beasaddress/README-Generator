@@ -24,19 +24,19 @@ by ${data.name}
 
 ## Table of Contents
 
-* Description
+ * [Description] (#description)
 
-* Requirements
+ Requirements
 
-* Usage
+ Usage
 
-* Contact-Me
+ Contact-Me
+ 
+ Contributors
 
-* Contributors
+ Testing
 
-* Testing
-
-* License
+ License
 
 
 ## Description

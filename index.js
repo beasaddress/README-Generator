@@ -52,7 +52,6 @@ const questions = [
     type: "input",
     name: "contributions",
     message: "What are you contribution guidelines for this project?",
-    default: "N/A",
 },
 {
     type: "input",
