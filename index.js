@@ -25,8 +25,8 @@ const questions = [
 },
 {
     type: "input",
-    name: "require",
-    message: "List your project dependencies.",
+    name: "installation",
+    message: "List your installation instructions such as project dependencies.",
 },
 {
     type: "input",

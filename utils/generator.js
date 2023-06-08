@@ -36,7 +36,7 @@ by ${data.name} ${renderLicenseBadge(data.license)}
 
 * [Description](#description)
 
-* [Requirements](#requirements)
+* [Installation](#installations)
 
 * [Usage](#usage)
 
@@ -52,8 +52,8 @@ ${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
 
-## Requirements
-${data.require}
+## Installations
+${data.installation}
 
 ## Usage
 ${data.usage}
@@ -64,7 +64,7 @@ ${data.usage}
 * GitHub - https://github.com/${data.author}/
 
 ## Contributors
-${data.contributors}
+${data.contributions}
 
 ## Testing
 ${data.test}

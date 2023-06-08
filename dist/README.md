@@ -1,11 +1,11 @@
 # README-Generator
-by Beatriz Sandoval ![Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
+by Beatriz E Sandoval ![Github license](https://img.shields.io/badge/license-Apache_2.0-yellowgreen.svg)
 
 ## Table of Contents
 
 * [Description](#description)
 
-* [Requirements](#requirements)
+* [Installation](#installations)
 
 * [Usage](#usage)
 
@@ -19,16 +19,16 @@ by Beatriz Sandoval ![Github license](https://img.shields.io/badge/license-MIT-y
 
 
 ## Description
-Creates a professional readme.md file straight from your terminal
+Creates a professional, pre formatted readme.md file straight from git bash
 
-## Requirements
+## Installations
 inquirer
 
 ## Usage
-HTML JS NODE.js JSON Git Bash
+HTML JS Node.js Git
 
 ## Contact-Me 
-* Name - Beatriz Sandoval
+* Name - Beatriz E Sandoval
 * Email - beasaddress@gmail.com
 * GitHub - https://github.com/beasaddress/
 
@@ -39,4 +39,4 @@ undefined
 npm test
 
 ## License
-This application is covered under the MIT license.
+This application is covered under the Apache_2.0 license.
