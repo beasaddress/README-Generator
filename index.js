@@ -20,7 +20,7 @@ const questions = [
     type: "checkbox",
     name: "license",
     message: "Choose a license.",
-    choices: ["Mit", "Apache", "Mozilla", "Boost"],
+    choices: ["MIT", "Apache_2.0", "MPL_2.0", "Boost_1.0"],
     default: "none",
 },
 {
@@ -70,7 +70,7 @@ function init() {
         console.log("Creating your README file....");
         //passing the file name and what will be the data inside the file by passing my generator function as a parameter
         //using a spread operator to pass the values of responses to the generator function
-        writeToFile("./mddestination/README.md", generator({...responses}))
+        writeToFile("./dist/README.md", generator({...responses}))
     });
     
 }
