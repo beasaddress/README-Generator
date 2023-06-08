@@ -42,7 +42,7 @@ by ${data.name} ${renderLicenseBadge(data.license)}
 
 * [Questions](#questions)
 
-* [Contribution](#contributions)
+* [Contributions](#contributions)
 
 * [Testing](#testing)
 
@@ -63,7 +63,7 @@ ${data.usage}
 * Email - ${data.email}
 * GitHub - https://github.com/${data.author}/
 
-## Contribution
+## Contributions
 ${data.contributions}
 
 ## Testing
