@@ -31,7 +31,7 @@ const questions = [
 {
     type: "input",
     name: "usage",
-    message: "State the languages and other tech that will be required for your project.",
+    message: "State the languages and technologies that will be used for your project.",
 },
 {
     type: "input",
@@ -51,7 +51,7 @@ const questions = [
 {
     type: "input",
     name: "contributions",
-    message: "What are you contribution guidelines for this project?",
+    message: "What are your contribution guidelines for this project?",
 },
 {
     type: "input",

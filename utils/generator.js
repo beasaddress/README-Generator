@@ -40,9 +40,9 @@ by ${data.name} ${renderLicenseBadge(data.license)}
 
 * [Usage](#usage)
 
-* [Contact-Me](#contact-me)
+* [Questions](#questions)
 
-* [Contributors](#contributors)
+* [Contribution](#contributions)
 
 * [Testing](#testing)
 
@@ -58,12 +58,12 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Contact-Me 
+## Questions 
 * Name - ${data.name}
 * Email - ${data.email}
 * GitHub - https://github.com/${data.author}/
 
-## Contributors
+## Contribution
 ${data.contributions}
 
 ## Testing
