@@ -19,7 +19,7 @@ by Beatriz Sandoval ![Github license](https://img.shields.io/badge/license-MIT-y
 
 
 ## Description
-This project creates a professional README.md file straight from your terminal. All a user has to do is run "node index.js" and they will be prompted with questions. The responses are then generated in the back end. They will be formatted in a way that looks like the markdown file was made from scratch. There is a section for each necessary aspect of a project such as usage, contributions guidelines, contact me, and installation info. 
+This project creates a professional README.md file straight from your terminal. All a user has to do is run "node index.js" and they will be prompted with questions. The responses are then generated in the back end. They will be formatted in a way that looks like the markdown file was made from scratch. There is a section for each necessary aspect of a project such as usage, contributions guidelines, contact me, and installation info. Here is a link to a walkthough video showing how to use it: https://drive.google.com/file/d/16YmI7cBMoBeqi3uCkEZCzDaliUoCZfqa/view
 
 ## Installations
 This project is utilizing the inquirer package from Node.js
