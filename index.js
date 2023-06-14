@@ -67,10 +67,11 @@ function writeToFile(fileName, data) {
 function init() {
     //telling the application to prompt the questions, then take the responses and use the writeToFile function
     inquirer.prompt(questions).then((responses) => {
-        console.log("Creating your README file....");
+        console.log("Creating your README.md file...");
         //passing the file name and what will be the data inside the file by passing my generator function as a parameter
         //using a spread operator to pass the values of responses to the generator function
         writeToFile("./dist/README.md", generator({...responses}))
+        console.log("README.md created!");
     });
     
 }
